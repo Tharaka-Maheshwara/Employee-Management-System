@@ -1,0 +1,102 @@
+.showEmployeeDetails {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  h1.display-6-bold {
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p.text-center {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  table.table-dark {
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  table.table-dark th, 
+  table.table-dark td {
+    padding: 12px 15px;
+    border: 1px solid #454d55;
+  }
+  
+  table.table-dark th {
+    background-color: #495057;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline-danger {
+    color: #dc3545;
+    border: 2px solid #dc3545;
+    background-color: transparent;
+    margin-top: 20px;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-outline-info {
+    color: #17a2b8;
+    border: 2px solid #17a2b8;
+    background-color: transparent;
+    margin-top: 20px;
+  }
+  
+  .btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  
+  .btn-lg {
+    padding: 10px 30px;
+    font-size: 18px;
+  }
+  
+  .d-flex {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .m-auto {
+    margin: 0 auto;
+  }
+  
+  .float-right {
+    float: right;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  @media (max-width: 768px) {
+    h1.display-6-bold {
+      font-size: 24px;
+    }
+    
+    .btn-lg {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  }
+  
